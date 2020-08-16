@@ -1,26 +1,29 @@
-<!-- <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> -->
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>boeken</title>
-    <script>
-window.onload = function() {
-  document.getElementById("zoekterm").focus();
-};
-</script> </head>
-  <body>
-    <script src="filteren.js"></script>
-    <!--
-<button id="knop" onclick="TelRijen()">Aantal rijen</button><p id="tmp"></p><script src="TelRijen.js"></script>//-->
-    <form>
-      <p style="font-family:Ubuntu;font-size:13px;color:blue;">Vul één of,
-        gescheiden door spaties, meerdere zoektermen in, of delen daarvan; de
-        hele tabel wordt doorzocht; resultaat toont alleen relevante rijen</p>
-      <input style="font-family:Ubuntu;" id="zoekterm" name="filter" onkeyup="filteren(this, 'boeken')" type="text">
-    </form>
+	
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>boeken</title>
+<script>
+	window.onload = function() {
+	document.getElementById("zoekterm").focus();
+	};
+</script> 
+</head>
+  
+<body>
+<script src="filteren.js"></script>
+
+<form>
+  <p style="font-family:Ubuntu;font-size:13px;color:blue;">Vul één of,
+	gescheiden door spaties, meerdere zoektermen in, of delen daarvan; de
+	hele tabel wordt doorzocht; resultaat toont alleen relevante rijen</p>
+  <input style="font-family:Ubuntu;" id="zoekterm" name="filter" onkeyup="filteren(this, 'boeken')" type="text">
+</form>
+
 <br>
+
 <style type="text/css">
 	table {border-collapse: collapse;}
 </style>
@@ -46,6 +49,7 @@ window.onload = function() {
 <table id="boeken" class="tableizer-table">
 	
 <thead><tr class="tableizer-firstrow"><th>Auteur</th><th>Titel</th><th>Genre</th><th>Soort</th><th>Jaar</th></tr></thead><tbody>
+
  <tr><td>Aaronovitch, David</td><td>Voodoo histories - how conspiracy theory has shaped modern history</td><td>gesch</td><td>ebook</td><td>&nbsp;</td></tr>
  <tr><td>Abdus Sattar, Sajidah</td><td>Islam voor beginners - heldere inleiding tot de wereld van de islam</td><td>relig</td><td>&nbsp;</td><td>&nbsp;</td></tr>
  <tr><td>Abeling, André; Ulein, Christine</td><td>Spreekwijzer Frans - 3000 uitdrukkingen en zegswijzen</td><td>taal_fr</td><td>&nbsp;</td><td>&nbsp;</td></tr>
@@ -235,6 +239,7 @@ window.onload = function() {
  <tr><td>Brockman, John (red.)</td><td>Hoe verandert internet je manier van denken</td><td>weten</td><td>ebook</td><td>&nbsp;</td></tr>
  <tr><td>Brockman, John (red.)</td><td>Ik geloof dat... maar heb geen bewijs</td><td>weten</td><td>&nbsp;</td><td>&nbsp;</td></tr>
  <tr><td>Brokken, Jan</td><td>De rechtvaardigen</td><td>gesch</td><td>ebook</td><td>&nbsp;</td></tr>
+ <tr><td>Brokken, Jan</td><td>Stedevaart</td><td>reizen</td><td>ebook</td><td>&nbsp;</td></tr>
  <tr><td>Brokken, Jan</td><td>Zeedrift - verzamelde verhalen</td><td>proza</td><td>ebook</td><td>2009</td></tr>
  <tr><td>Brokken, Jan</td><td>Baltische zielen - lotgevallen in Estland, Letland en Litouwen</td><td>gesch</td><td>ebook</td><td>2010</td></tr>
  <tr><td>Brokken, Jan</td><td>De gloed van Sint-Petersburg</td><td>proza</td><td>ebook</td><td>2016</td></tr>
@@ -674,6 +679,7 @@ window.onload = function() {
  <tr><td>Hamecourt, Peter d'</td><td>Russen zien ze vliegen</td><td>polit</td><td>ebook</td><td>&nbsp;</td></tr>
  <tr><td>Hamecourt, Peter d'</td><td>Toen Napoleon Maly verliet</td><td>polit</td><td>ebook</td><td>&nbsp;</td></tr>
  <tr><td>Hamecourt, Peter d'</td><td>Vladimir Poetin</td><td>polit</td><td>ebook</td><td>&nbsp;</td></tr>
+ <tr><td>Harari, Yuval Noah</td><td>21 Lessen voor de 21ste eeuw</td><td>gesch</td><td>ebook</td><td>&nbsp;</td></tr>
  <tr><td>Harari, Yuval Noah</td><td>Sapiens - een kleine geschiedenis van de mensheid</td><td>gesch</td><td>&nbsp;</td><td>2011</td></tr>
  <tr><td>Harari, Yuval Noah</td><td>Homo Deus - een kleine geschiedenis van de toekomst</td><td>gesch</td><td>ebook</td><td>2015</td></tr>
  <tr><td>Haring, Bas</td><td>De ijzeren wil - over bewustzijn, het brein en denkende machines</td><td>filos</td><td>&nbsp;</td><td>&nbsp;</td></tr>
@@ -1057,6 +1063,7 @@ window.onload = function() {
  <tr><td>Lemerle, Paul</td><td>Geschiedenis van Byzantium</td><td>gesch</td><td>&nbsp;</td><td>&nbsp;</td></tr>
  <tr><td>Lendering, Jona</td><td>De klad in de klassieken</td><td>gesch</td><td>&nbsp;</td><td>&nbsp;</td></tr>
  <tr><td>Leonard, Annie; Conrad, Ariane</td><td>The Story of Stuff (v5.0)</td><td>socio</td><td>ebook</td><td>&nbsp;</td></tr>
+ <tr><td>Lepore, Jill</td><td>This America - The Case for the Nation</td><td>polit</td><td>ebook</td><td>&nbsp;</td></tr>
  <tr><td>Leskien, A.</td><td>Handbuch der altbulgarischen Sprache (Grammatik, Texte, Glossar)</td><td>taal_ob</td><td>&nbsp;</td><td>&nbsp;</td></tr>
  <tr><td>Levi, Primo</td><td>De verdronkenen en de geredden</td><td>proza</td><td>ebook</td><td>&nbsp;</td></tr>
  <tr><td>Levi, Primo</td><td>Het respijt</td><td>proza</td><td>ebook</td><td>&nbsp;</td></tr>
@@ -1177,6 +1184,8 @@ window.onload = function() {
  <tr><td>Multatuli</td><td>De geschiedenis van Woutertje Pieterse, deel 2</td><td>proza</td><td>ebook</td><td>&nbsp;</td></tr>
  <tr><td>Multatuli</td><td>Max Havelaar</td><td>proza</td><td>ebook</td><td>&nbsp;</td></tr>
  <tr><td>Multatuli</td><td>Specialiteiten</td><td>proza</td><td>ebook</td><td>&nbsp;</td></tr>
+ <tr><td>Murray, Douglas</td><td>The Madness of Crowds</td><td>polit</td><td>ebook</td><td>&nbsp;</td></tr>
+ <tr><td>Murray, Douglas</td><td>The Strange Death of Europe</td><td>polit</td><td>ebook</td><td>&nbsp;</td></tr>
  <tr><td>Musil, Robert</td><td>Der Mann ohne Eigenschaften</td><td>proza</td><td>ebook</td><td>&nbsp;</td></tr>
  <tr><td>Mutsaers, Charlotte</td><td>Koetsier herfst</td><td>proza</td><td>ebook</td><td>&nbsp;</td></tr>
  <tr><td>Márai, Sándor</td><td>Bekentenissen van een burger</td><td>fictie</td><td>&nbsp;</td><td>&nbsp;</td></tr>
@@ -1575,6 +1584,7 @@ window.onload = function() {
  <tr><td>Spitzer, Manfred</td><td>Digitale dementie - hoe wij ons verstand kapotmaken</td><td>essay</td><td>&nbsp;</td><td>&nbsp;</td></tr>
  <tr><td>Staal, Frits</td><td>Over zin en onzin in filosofie, religie en wetenschap</td><td>filos</td><td>&nbsp;</td><td>&nbsp;</td></tr>
  <tr><td>Staines, Joe (red.)</td><td>Classical music (rough guide) - composers, key works and top recordings</td><td>muziek</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+ <tr><td>Starink, Laura</td><td>Post uit Rusland</td><td>gesch</td><td>ebook</td><td>&nbsp;</td></tr>
  <tr><td>Starink, Laura</td><td>Slag om Oekraïne - referendum over een land in opstand</td><td>essay</td><td>ebook</td><td>&nbsp;</td></tr>
  <tr><td>Steiner, George</td><td>After Babel - aspects of language and translation</td><td>essay</td><td>&nbsp;</td><td>&nbsp;</td></tr>
  <tr><td>Steiner, George</td><td>De toekomst van het boek</td><td>essay</td><td>&nbsp;</td><td>&nbsp;</td></tr>
@@ -1800,6 +1810,7 @@ window.onload = function() {
  <tr><td>Zwagerman, Joost (red.)</td><td>De Nederlandse en Vlaamse literatuur vanaf 1880 in 200 essays</td><td>fictie</td><td>&nbsp;</td><td>2008</td></tr>
  <tr><td>Zwagerman, Joost (red.)</td><td>Groeten van Rottumerplaat - het beslissende album volgens 100 en enige schrijvers</td><td>fictie</td><td>&nbsp;</td><td>2008</td></tr>
  <tr><td>Zweig, Stefan</td><td>De wereld van gisteren</td><td>fictie</td><td>&nbsp;</td><td></td></tr>
+ 
 </tbody></table>
 
 </body>
